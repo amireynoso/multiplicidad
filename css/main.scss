@@ -1,15 +1,30 @@
 ---
 # Only the main Sass file needs front matter (the dashes are enough)
 ---
+
 @charset "utf-8";
 
+// Imports
+// -----------------------------------------------------
 
+@import "base";
+@import "type";
+@import "posts";
+@import "bourbon/bourbon";
+@import "neat/neat";
 
-// Our variables
+@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
+@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700,400italic,700italic);
+
+// Variables
+// -----------------------------------------------------
+
 $base-font-family: Helvetica, Arial, sans-serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$heading-font-family: Helvetica, Arial, sans-serif;
 
 $spacing-unit:     30px;
 
@@ -28,25 +43,142 @@ $on-palm:          600px;
 $on-laptop:        800px;
 
 
+//== Media queries breakpoints
 
-// Using media queries with like this:
-// @include media-query($on-palm) {
-//     .wrapper {
-//         padding-right: $spacing-unit / 2;
-//         padding-left: $spacing-unit / 2;
-//     }
-// }
+// Extra small screen / phone
+$screen-xs-min : 480px;
+
+// Small screen / tablet
+$screen-sm-min : 768px;
+
+// Medium screen / desktop
+$screen-md-min : 992px;
+
+// Large screen / wide desktop
+$screen-lg-min : 1200px;
+
+// Max
+$screen-xs-max : ($screen-sm-min - 1);
+$screen-sm-max : ($screen-md-min - 1);
+$screen-md-max : ($screen-lg-min - 1);
+
+
+// Borders
+$border-color: #eee;
+$border: 1px solid $border-color;
+
+// Mixins
+// -----------------------------------------------------
+
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
         @content;
     }
 }
 
+// Structure
+// -----------------------------------------------------
+
+body {
+	font-family: 'Libre Baskerville', serif;
+	border: 15px solid #333;
+}
 
 
-// Import partials from `sass_dir` (defaults to `_sass`)
-@import
-        "base",
-        "layout",
-        "syntax-highlighting"
-;
+.wrapper {
+  max-width: 60rem;
+  padding-left:  1.5rem;
+  padding-right: 1.5rem;
+  margin-left:  auto;
+  margin-right: auto;
+}
+
+
+.container {
+	@include outer-container;
+}
+
+aside {
+  @include span-columns(3);
+
+  @include media-query($screen-xs-max) {
+    @include span-columns(12);
+  }
+}
+
+main {
+  @include span-columns(9);
+
+  @include media-query($screen-xs-max) {
+    @include span-columns(12);
+  }
+}
+
+footer {
+	border-top: $border;
+	text-align: right;
+  margin-bottom: 2rem;
+  padding-top: 1rem;
+  margin-top: 2rem;
+}
+
+
+// Header
+// -----------------------------------------------------
+
+.masthead {
+  @include clearfix;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+border-bottom: $border;
+}
+
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050;
+  display: flex;
+  
+  span {
+  	display: block;
+  }
+
+  a {
+    color: #505050;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+    float: left;
+
+    border-right: $border;
+    padding-right: 1rem;
+    margin-right: 1em;
+
+    &:hover,
+    &:focus {
+    	text-decoration: none;
+    }
+  }
+
+  small {
+    font-size: 75%;
+    font-weight: 400;
+    color: #c0c0c0;
+    letter-spacing: 0;
+    align-self: flex-end;
+  }
+}
+
+.title-multiplicidad {
+	text-transform: lowercase;
+	font-size: 1.6rem;
+	font-style: italic;
+	font-weight: 400;
+	border-bottom: $border;
+	padding-bottom: .2rem;
+}
+.title-digital {
+	text-transform: uppercase;
+	font-size: 2rem;
+	letter-spacing: .1rem;
+}
