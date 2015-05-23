@@ -1,7 +1,7 @@
 # Permalinks
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
-permalink:           pretty
+permalink:           /:categories/:title/
 relative_permalinks: true
 
 # Setup
@@ -28,3 +28,9 @@ author:
 version:             1.0.0
 github:
   repo:              ""
+
+# Collection
+collections:
+  content:
+    output: 		true
+    permalink: 		/:path/
