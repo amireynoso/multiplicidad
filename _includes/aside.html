@@ -1,5 +1,8 @@
 <aside class="site-sidebar">
 
-Navegacion
+{% for capitulo in site.data.sidebar %}
+    <h4>{{ capitulo.title }}</h4>
+    {% include subcaps.html items=capitulo.subcaps parent=capitulo.url %}
+{% endfor %}
 
 </aside>

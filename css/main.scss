@@ -79,9 +79,14 @@ $border: 1px solid $border-color;
 // Structure
 // -----------------------------------------------------
 
+html {
+	height: 100%;
+}
+
 body {
 	font-family: 'Libre Baskerville', serif;
 	border: 15px solid #333;
+	min-height: 100%;
 }
 
 

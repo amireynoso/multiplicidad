@@ -1,0 +1,60 @@
+- title: "El fascinante mundo del diseño web"
+  url: fascinante-mundo
+  subcaps:
+  - url: introduccion
+    title: "Introducción"
+  - url: que-hay-dentro
+    title: "¿Qué hay dentro de un sitio web?"
+    subsubcaps:
+      - url: armazon
+        title: "El armazón: HTML"
+      - url: maquillaje
+        title: "El maquillaje: CSS"
+      - url: magia
+        title: "La magia: Javascript"
+      - url: logica
+        title: "La lógica: lenguajes de programación del lado del servidor"
+  - url: surfeando-la-web
+    title: "Surfeando la Web: los navegadores"
+  - url: navegantes-satisfechos
+    title: "Navegantes satisfechos: la experiencia de usuario"
+    subsubcaps:
+      - url: facilitando-caminos
+        title: "Facilitando caminos mediante la usabilidad"
+      - url: accesibilidad
+        title: "Accesibilidad para todos y todas"
+
+- title: "La Web en todos lados"
+  url: en-todos-lados
+  subcaps:
+  - url: red-al-alcance
+    title: "La red al alcance de la mano: dispositivos móviles"
+    subsubcaps:
+      - url: telefonos-pensantes
+        title: "Teléfonos pensantes: smartphones"
+      - url: pequenas-computadoras
+        title: "Pequeñas computadoras: tablets"
+      - url: aun-mas
+        title: "¿Aún más?: otras clases de dispositivos"
+  - url: creciente-avance
+    title: "El creciente avance de las plataformas móviles"
+  - url: bicho-raro
+    title: "Un bicho raro: el usuario móvil"
+  - url: app-para-todo
+    title: "Hay una app para todo"
+    subsubcaps:
+      - url: nativas
+        title: "Aplicaciones nativas"
+      - url: web
+        title: "Aplicaciones web"
+      - url: hibridas
+        title: "Aplicaciones híbridas"
+  - url: entorno-movil
+    title: "Cuando el entorno móvil marca fronteras"
+    subsubcaps:
+      - url: small-large-xl
+        title: "Small, large y XL: resoluciones"
+      - url: vertical-o-apaisado
+        title: "¿Vertical o apaisado?: orientaciones de pantalla"
+      - url: navegador-reglas
+        title: "Cada navegador con sus reglas"
