@@ -1,1 +1,10 @@
-Work in progress
+# Multiplicidad Digital
+### Hacia la expansión de interfaces web para dispositivos móviles
+
+Personal website divulging my graduation project for my Image and Sound Design degree at Universidad de Palermo. Written between March 2013 and July 2014, approved in October 2014 and published in December 2014 as an academic publication.
+
+*Multiplicidad Digital* is an essay justifying the need of considering the application of responsive web design in every web project.
+
+***Work in progress.***
+
+Built with [Jekyll](https://github.com/jekyll/jekyll/).
