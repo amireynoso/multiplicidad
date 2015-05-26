@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               Multiplicidad Digital
 tagline:             Hacia la expansión de interfaces web para dispositivos móviles
-url:                 http://localhost:4000
+url:                 http://amireynoso.github.io/multiplicidad
 paginate:            1
 baseurl:             "/multiplicidad"
 
