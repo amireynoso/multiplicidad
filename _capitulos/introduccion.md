@@ -1,6 +1,7 @@
 ---
 layout: capitulo
 title: Introducción
+comments: true
 ---
 
 En las últimas dos décadas, Internet ha crecido hasta ser una de las herramientas más valiosas con las que cuenta la humanidad. Es la fuente de información más dinámica y extensa, en la cual quien lo desee puede tomar parte. Se accede a ella mediante un dispositivo que lo permita: una computadora de escritorio, una laptop o notebook, una consola de juegos, una tablet, un teléfono celular, entre otros. Inicialmente, el primero mencionado era el medio de elección de la mayor parte de los usuarios.

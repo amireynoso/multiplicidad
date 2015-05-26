@@ -1,6 +1,7 @@
 ---
 layout: capitulo
 title: "1.1. ¿Qué hay dentro de un sitio web?"
+comments: true
 ---
 
 A la hora de llevar a cabo un desarrollo para la Web, es imprescindible conocer y manejar, como mínimo, las tecnologías básicas y fundamentales que permiten generar una interfaz visual en un navegador. Partiendo desde la simplicidad de una única página web, sin ningún tipo de complejidad interactiva, para su creación se requiere al menos el uso de del lenguaje HTML.

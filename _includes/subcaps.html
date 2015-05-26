@@ -9,7 +9,7 @@
     {% assign c = "" %}
   {% endif %}
 
-  <li class="{{ c }}"><a href="{{ site.url }}/{{ parent }}/{{ item.url }}">{{ item.title }}</a></li>
+  <li class="{{ c }}"><a href="{{ site.base }}{{ parent }}/{{ item.url }}">{{ item.title }}</a></li>
   {% if item.subsubcaps %}
     <ul>
     {% for subitem in item.subsubcaps %}
@@ -18,7 +18,7 @@
       {% else %}
         {% assign sc = "" %}
       {% endif %}
-      <li class="{{ sc }}"><a href="{{ site.url }}/{{ parent }}/{{ item.url }}/{{ subitem.url }}">{{ subitem.title }}</a></li>
+      <li class="{{ sc }}"><a href="{{ site.base }}{{ parent }}/{{ item.url }}/{{ subitem.url }}">{{ subitem.title }}</a></li>
     {% endfor %}
     </ul>
   {% endif %}
