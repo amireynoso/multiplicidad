@@ -3,15 +3,25 @@
 
 <ul>
 {% for item in items %}
-  {% assign item_url = item.url %}
-
-  {% if item_url == page.url %}
+  {% if item.url == page.url %}
     {% assign c = "current" %}
   {% else %}
     {% assign c = "" %}
   {% endif %}
 
-  <li class="{{ c }}"><a href="{{ site.url }}/{{ parent }}/{{ item_url }}">{{ item.title }}</a></li>
+  <li class="{{ c }}"><a href="{{ site.url }}/{{ parent }}/{{ item.url }}">{{ item.title }}</a></li>
+  {% if item.subsubcaps %}
+    <ul>
+    {% for subitem in item.subsubcaps %}
+      {% if subitem.url == page.url %}
+        {% assign sc = "current" %}
+      {% else %}
+        {% assign sc = "" %}
+      {% endif %}
+      <li class="{{ sc }}"><a href="{{ site.url }}/{{ parent }}/{{ item.url }}/{{ subitem.url }}">{{ subitem.title }}</a></li>
+    {% endfor %}
+    </ul>
+  {% endif %}
 
 {% endfor %}
 </ul>

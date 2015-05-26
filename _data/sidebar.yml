@@ -1,8 +1,8 @@
+- title: "Introduccion"
+  url: introduccion
 - title: "El fascinante mundo del diseño web"
   url: fascinante-mundo
   subcaps:
-  - url: introduccion
-    title: "Introducción"
   - url: que-hay-dentro
     title: "¿Qué hay dentro de un sitio web?"
     subsubcaps:
@@ -23,7 +23,6 @@
         title: "Facilitando caminos mediante la usabilidad"
       - url: accesibilidad
         title: "Accesibilidad para todos y todas"
-
 - title: "La Web en todos lados"
   url: en-todos-lados
   subcaps:

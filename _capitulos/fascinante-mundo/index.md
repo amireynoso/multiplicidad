@@ -1,6 +1,7 @@
 ---
 layout: capitulo
 title: "Capítulo 1: El fascinante mundo del diseño web"
+permalink: fascinante-mundo/
 ---
 
 El diseño de páginas y sitios deriva sus fundamentos del diseño gráfico y editorial. Comparten principios morfológicos y conceptuales, pero con el avance tecnológico que experimentó la World Wide Web en los últimos años, es de esperarse que el diseño web haya tomado un camino diferencial para establecerse por sí mismo. “Diseñar para la web es diferente a diseñar para cualquier otro medio. […] Sin embargo, el medio atrae a diseñadores de todos los ámbitos de la práctica del diseño: desde la ingeniería y la arquitectura, hasta el diseño gráfico y de productos.” (Boulton, 2009, p. 1).

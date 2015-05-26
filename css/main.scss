@@ -187,3 +187,27 @@ border-bottom: $border;
 	font-size: 2rem;
 	letter-spacing: .1rem;
 }
+
+// Sidebar
+// -----------------------------------------------------
+
+.site-sidebar {
+  font-size: .7rem;
+
+  h4 {
+    font-size: .8rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  > ul {
+    padding-left: 0;
+    
+    > ul {
+      padding-left: .5rem;
+      margin-bottom: 0;
+    } 
+  }
+}
