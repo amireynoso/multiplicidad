@@ -10,11 +10,9 @@
 @import "base";
 @import "type";
 @import "posts";
+@import "fonts";
 @import "bourbon/bourbon";
 @import "neat/neat";
-
-@import url(http://fonts.googleapis.com/css?family=Libre+Baskerville:400,700,400italic);
-@import url(http://fonts.googleapis.com/css?family=Playfair+Display:700,400italic,700italic);
 
 // Variables
 // -----------------------------------------------------
@@ -69,145 +67,288 @@ $border: 1px solid $border-color;
 
 // Mixins
 // -----------------------------------------------------
-
-@mixin media-query($device) {
+@mixin media-query-max($device) {
     @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin media-query-min($device) {
+    @media screen and (min-width: $device) {
         @content;
     }
 }
 
 // Structure
 // -----------------------------------------------------
-
 html {
-	height: 100%;
+    height: 100%;
 }
 
 body {
-	font-family: 'Libre Baskerville', serif;
-	border: 15px solid #333;
-	min-height: 100%;
+    font-family: 'Libre Baskerville', serif;
+    border: 15px solid #333;
+    min-height: 100%;
 }
-
 
 .wrapper {
-  max-width: 60rem;
-  padding-left:  1.5rem;
-  padding-right: 1.5rem;
-  margin-left:  auto;
-  margin-right: auto;
+    max-width: 60rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-
 .container {
-	@include outer-container;
+    @include outer-container;
 }
 
 aside {
-  @include span-columns(3);
-
-  @include media-query($screen-xs-max) {
-    @include span-columns(12);
-  }
+    @include span-columns(3);
+    @include media-query-max($screen-xs-max) {
+        @include span-columns(12);
+    }
 }
 
 main {
-  @include span-columns(9);
-
-  @include media-query($screen-xs-max) {
-    @include span-columns(12);
-  }
+    @include span-columns(9);
+    @include media-query-max($screen-xs-max) {
+        @include span-columns(12);
+    }
 }
 
 footer {
-	border-top: $border;
-	text-align: right;
-  margin-bottom: 2rem;
-  padding-top: 1rem;
-  margin-top: 2rem;
+    border-top: $border;
+    text-align: right;
+    margin-bottom: 2rem;
+    padding-top: 1rem;
+    margin-top: 2rem;
 }
-
 
 // Header
 // -----------------------------------------------------
-
 .masthead {
-  @include clearfix;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
-  margin-bottom: 1rem;
-border-bottom: $border;
+    @include clearfix;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: $border;
 }
 
 .masthead-title {
-  margin-top: 0;
-  margin-bottom: 0;
-  color: #505050;
-  display: flex;
-  
-  span {
-  	display: block;
-  }
-
-  a {
+    margin-top: 0;
+    margin-bottom: 0;
     color: #505050;
-    font-family: 'Playfair Display', serif;
-    text-align: center;
-    float: left;
-
-    border-right: $border;
-    padding-right: 1rem;
-    margin-right: 1em;
-
-    &:hover,
-    &:focus {
-    	text-decoration: none;
+    display: flex;
+    @include outer-container;
+    span {
+        display: block;
     }
-  }
-
-  small {
-    font-size: 75%;
-    font-weight: 400;
-    color: #c0c0c0;
-    letter-spacing: 0;
-    align-self: flex-end;
-  }
+    a {
+        @include span-columns(3);
+        color: #505050;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        float: left;
+        border-right: $border;
+        padding-right: 1rem;
+        margin-right: 1em;
+        &:hover, &:focus {
+            text-decoration: none;
+        }
+        @include media-query-max($screen-xs-max) {
+            @include span-columns(12);
+            border-right: none;
+        }
+    }
+    small {
+        @include span-columns(9);
+        @include media-query-max($screen-xs-max) {
+            display: none;
+        }
+        font-size: 85%;
+        font-weight: 400;
+        color: #c0c0c0;
+        letter-spacing: 0;
+        align-self: flex-end;
+    }
 }
 
 .title-multiplicidad {
-	text-transform: lowercase;
-	font-size: 1.6rem;
-	font-style: italic;
-	font-weight: 400;
-	border-bottom: $border;
-	padding-bottom: .2rem;
+    text-transform: lowercase;
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 400;
+    border-bottom: $border;
+    padding-bottom: .2rem;
+    @include media-query-max($screen-xs-max) {
+        font-size: 2.4rem;
+    }
+    @include media-query-max($screen-sm-max) {
+        font-size: 1.6rem;
+    }
 }
+
 .title-digital {
-	text-transform: uppercase;
-	font-size: 2rem;
-	letter-spacing: .1rem;
+    text-transform: uppercase;
+    font-size: 2.6rem;
+    letter-spacing: .1rem;
+    @include media-query-max($screen-xs-max) {
+        font-size: 2.8rem;
+    }
+    @include media-query-max($screen-sm-max) {
+        font-size: 2rem;
+    }
 }
 
 // Sidebar
 // -----------------------------------------------------
-
 .site-sidebar {
-  font-size: .7rem;
-
-  h4 {
-    font-size: .8rem;
-  }
-
-  ul {
-    list-style: none;
-  }
-
-  > ul {
-    padding-left: 0;
-    
-    > ul {
-      padding-left: .5rem;
-      margin-bottom: 0;
-    } 
-  }
+    @include media-query-min($screen-sm-min) {
+        border-right: $border;
+    }
+    .menu-mobile {
+        @include media-query-min($screen-sm-min) {
+            display: none;
+        }
+        margin-bottom: 1rem;
+        select {
+            max-width: 100%;
+        }
+        .menu-level1 {
+            font-weight: bold;
+        }
+        .menu-level2 {
+            text-indent: 1rem;
+        }
+        .menu-level3 {
+            text-indent: 2rem;
+        }
+    }
+    .menu-desktop {
+        font-size: .7rem;
+        padding-right: 1rem;
+        @include media-query-max($screen-xs-max) {
+            display: none;
+        }
+        h4 {
+            font-size: .8rem;
+        }
+        a {
+            color: lighten($text-color, 20%);
+        }
+        ul {
+            list-style: none;
+        }
+        > ul {
+            padding-left: 0;
+            > ul {
+                padding-left: .5rem;
+                margin-bottom: 0;
+            }
+        }
+    }
 }
+
+// Content
+// -----------------------------------------------------
+h1 {
+    font-size: 1.8rem;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+.download-link {
+    text-transform: uppercase;
+    color: $text-color;
+    border: 2px solid $text-color;
+    padding: .5rem;
+    display: inline-block;
+    margin: 1rem 0;
+    transition: all .5s ease;
+    &:hover {
+        text-decoration: none;
+        color: lighten($text-color, 15%);
+        border-color: lighten($text-color, 15%);
+    }
+}
+
+// Nav
+// -----------------------------------------------------
+.section-nav {
+    @include clearfix;
+    padding-top: 1.5rem;
+    margin-top: 1.5rem;
+    border-top: $border;
+    .left {
+        float: left;
+    }
+    .right {
+        float: right;
+    }
+}
+
+// Footer
+// -----------------------------------------------------
+.footer {
+    @include outer-container;
+    .social {
+        text-align: left;
+        @include span-columns(4);
+        @include media-query-max($screen-xs-max) {
+            @include span-columns(12);
+        }
+    }
+    .disclaimer {
+        font-size: .8rem;
+        @include span-columns(8);
+        @include media-query-max($screen-xs-max) {
+            @include span-columns(12);
+        }
+        small {
+            font-size: 90%;
+            display: block;
+        }
+    }
+}
+
+// Icons
+// -----------------------------------------------------
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+ 
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+ 
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+ 
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+ 
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+ 
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+ 
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-twitter:before { content: '\e800'; } /* '' */
+.icon-linkedin:before { content: '\e801'; } /* '' */

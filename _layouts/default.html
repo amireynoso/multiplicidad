@@ -25,9 +25,14 @@
       </div>
 
       <footer class="footer">
-        <small>
-          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
+        <div class="social">
+            <a href="http://twitter.com/bakery" title="Twitter: @bakery"><span class="icon-twitter"></span></a>
+            <a href="https://ar.linkedin.com/in/amireynoso" title="LinkedIn: Ami Reynoso"><span class="icon-linkedin"></span></a>
+        </div>
+        <div class="disclaimer">
+          &copy; <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. <a href="http://amireynoso.com.ar">Ami Reynoso</a>.
+          <small>Todos los derechos reservados.</small>
+        </div>
       </footer>
     </div>
 

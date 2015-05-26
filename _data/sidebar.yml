@@ -1,4 +1,4 @@
-- title: "Introduccion"
+- title: "Introducción"
   url: introduccion
 - title: "El fascinante mundo del diseño web"
   url: fascinante-mundo
@@ -57,3 +57,51 @@
         title: "¿Vertical o apaisado?: orientaciones de pantalla"
       - url: navegador-reglas
         title: "Cada navegador con sus reglas"
+- title: "La Web líquida"
+  url: web-liquida
+  subcaps:
+    - url: adaptar-o-morir
+      title: "Adaptar o morir"
+    - url: responder-acorde
+      title: "Responder acorde: responsive web design"
+    - url: disenar-responsivamente
+      title: "¿Uno, dos o cinco? Diseñar responsivamente en vez de por separado"
+    - url: mobile-first
+      title: "Avancen los móviles: la filosofía mobile first"
+    - url: mejora-degradacion
+      title: "¿Mejora progresiva o degradación gradual?"
+- title: "¡Manos a la obra! Responsive web design en camino"
+  url: rwd-en-camino
+  subcaps:
+    - url: media-queries
+      title: "Condicionar las reglas: media queries"
+    - url: unidades-flexibles
+      title: "Medir relativamente con unidades flexibles"
+    - url: tipos-moviles
+      title: "Verdaderos tipos móviles: fuentes adaptables"
+    - url: imagenes-elasticas
+      title: "Imágenes elásticas"
+    - url: sistemas-de-grillas
+      title: "Cada cosa en su lugar: sistemas de grillas"
+    - url: cerrando-grietas
+      title: "Cerrando grietas con polyfills"
+    - url: era-touch
+      title: "La era touch: gestos táctiles"
+    - url: frameworks
+      title: "Marche un combo para llevar: frameworks"
+- title: "De la teoría a la práctica: diseño web responsivo en acción"
+  url: teoria-a-la-practica
+  subcaps:
+    - url: quien-lo-usa
+      title: "¿Quién lo usa?: análisis de aplicación"
+      subsubcaps:
+        - url: infobae
+          title: "Responsive web design en las grandes ligas: Infobae"
+        - url: portfolio
+          title: "Pensando un portfolio: rediseño del sitio web personal de la autora"
+    - url: ganan-todos
+      title: "Ganan todos: beneficios del uso de esta práctica"
+- title: "Conclusiones"
+  url: conclusiones
+- title: "Bibliografía"
+  url: bibliografia

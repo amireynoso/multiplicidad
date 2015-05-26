@@ -1,0 +1,111 @@
+// FONTELLO
+
+@font-face {
+  font-family: 'fontello';
+  src: url('../fonts/fontello.eot?33424697');
+  src: url('../fonts/fontello.eot?33424697#iefix') format('embedded-opentype'),
+       url('../fonts/fontello.woff?33424697') format('woff'),
+       url('../fonts/fontello.ttf?33424697') format('truetype'),
+       url('../fonts/fontello.svg?33424697#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?33424697#fontello') format('svg');
+  }
+}
+*/
+
+// LIBRE BASKERVILLE
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/Libre-Baskerville-regular/Libre-Baskerville-regular.eot');
+  src: url('../fonts/Libre-Baskerville-regular/Libre-Baskerville-regular.eot?#iefix') format('embedded-opentype'),
+       local('Libre Baskerville'),
+       local('Libre-Baskerville-regular'),
+       url('../fonts/Libre-Baskerville-regular/Libre-Baskerville-regular.woff2') format('woff2'),
+       url('../fonts/Libre-Baskerville-regular/Libre-Baskerville-regular.woff') format('woff'),
+       url('../fonts/Libre-Baskerville-regular/Libre-Baskerville-regular.ttf') format('truetype'),
+       url('../fonts/Libre-Baskerville-regular/Libre-Baskerville-regular.svg#LibreBaskerville') format('svg');
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Libre-Baskerville-700/Libre-Baskerville-700.eot');
+  src: url('../fonts/Libre-Baskerville-700/Libre-Baskerville-700.eot?#iefix') format('embedded-opentype'),
+       local('Libre Baskerville Bold'),
+       local('Libre-Baskerville-700'),
+       url('../fonts/Libre-Baskerville-700/Libre-Baskerville-700.woff2') format('woff2'),
+       url('../fonts/Libre-Baskerville-700/Libre-Baskerville-700.woff') format('woff'),
+       url('../fonts/Libre-Baskerville-700/Libre-Baskerville-700.ttf') format('truetype'),
+       url('../fonts/Libre-Baskerville-700/Libre-Baskerville-700.svg#LibreBaskerville') format('svg');
+}
+
+@font-face {
+  font-family: 'Libre Baskerville';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Libre-Baskerville-italic/Libre-Baskerville-italic.eot');
+  src: url('../fonts/Libre-Baskerville-italic/Libre-Baskerville-italic.eot?#iefix') format('embedded-opentype'),
+       local('Libre Baskerville Italic'),
+       local('Libre-Baskerville-italic'),
+       url('../fonts/Libre-Baskerville-italic/Libre-Baskerville-italic.woff2') format('woff2'),
+       url('../fonts/Libre-Baskerville-italic/Libre-Baskerville-italic.woff') format('woff'),
+       url('../fonts/Libre-Baskerville-italic/Libre-Baskerville-italic.ttf') format('truetype'),
+       url('../fonts/Libre-Baskerville-italic/Libre-Baskerville-italic.svg#LibreBaskerville') format('svg');
+}
+
+// PLAYFAIR DISPLAY
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/Playfair-Display-700/Playfair-Display-700.eot');
+  src: url('../fonts/Playfair-Display-700/Playfair-Display-700.eot?#iefix') format('embedded-opentype'),
+       local('Playfair Display Bold'),
+       local('Playfair-Display-700'),
+       url('../fonts/Playfair-Display-700/Playfair-Display-700.woff2') format('woff2'),
+       url('../fonts/Playfair-Display-700/Playfair-Display-700.woff') format('woff'),
+       url('../fonts/Playfair-Display-700/Playfair-Display-700.ttf') format('truetype'),
+       url('../fonts/Playfair-Display-700/Playfair-Display-700.svg#PlayfairDisplay') format('svg');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/Playfair-Display-italic/Playfair-Display-italic.eot');
+  src: url('../fonts/Playfair-Display-italic/Playfair-Display-italic.eot?#iefix') format('embedded-opentype'),
+       local('Playfair Display Italic'),
+       local('Playfair-Display-italic'),
+       url('../fonts/Playfair-Display-italic/Playfair-Display-italic.woff2') format('woff2'),
+       url('../fonts/Playfair-Display-italic/Playfair-Display-italic.woff') format('woff'),
+       url('../fonts/Playfair-Display-italic/Playfair-Display-italic.ttf') format('truetype'),
+       url('../fonts/Playfair-Display-italic/Playfair-Display-italic.svg#PlayfairDisplay') format('svg');
+}
+
+@font-face {
+  font-family: 'Playfair Display';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/Playfair-Display-700italic/Playfair-Display-700italic.eot');
+  src: url('../fonts/Playfair-Display-700italic/Playfair-Display-700italic.eot?#iefix') format('embedded-opentype'),
+       local('Playfair Display Bold Italic'),
+       local('Playfair-Display-700italic'),
+       url('../fonts/Playfair-Display-700italic/Playfair-Display-700italic.woff2') format('woff2'),
+       url('../fonts/Playfair-Display-700italic/Playfair-Display-700italic.woff') format('woff'),
+       url('../fonts/Playfair-Display-700italic/Playfair-Display-700italic.ttf') format('truetype'),
+       url('../fonts/Playfair-Display-700italic/Playfair-Display-700italic.svg#PlayfairDisplay') format('svg');
+}
+

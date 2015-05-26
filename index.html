@@ -3,31 +3,12 @@ layout: default
 title: Home
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <article class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-
-    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
-
-    {{ post.content }}
-  </article>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    <a class="pagination-item newer" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a>
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+<article class="intro">
+  <h1>Sobre este proyecto</h1>
+  <p class="lead"><em>Multiplicidad Digital: Hacia la expansión de interfaces web para dispositivos móviles</em> es el proyecto de graduación de <a href="http://amireynoso.com.ar">Ami Reynoso</a> para la carrera de Diseño de Imagen y Sonido (Universidad de Palermo).</p>
+  <p>Este ensayo fue redactado entre Marzo de 2013 y Julio de 2014. Fue aprobado por la Universidad en Octubre y el coloquio rendido en Diciembre del mismo año.</p>
+  <p>El proyecto expone una problemática actual en el campo del diseño y desarrollo web &mdash; la confección de interfaces pensadas para dispositivos móviles &mdash; y propuestas para reducir la brecha entre los diferentes puntos de acceso a la Web para unificar la experiencia de los usuarios.</p>
+  <p>Si bien progresivamente esta grieta está siendo nivelada, es posible aún divisar la falta de consciencia, por lo menos en la escala local, sobre la importancia de incluir a todos los usuarios sin importar su contexto.</p>
+  <p>Uno de los aportes que se desea lograr con este proyecto es el de divulgar académicamente la problemática, y sentar precedente, además de servir como manual de consulta. Por ello, se confeccionó este sitio web volcando el ensayo en su enteridad. Es posible, igualmente, descargar el documento original:</p>
+  <a class="download-link">Descargar en PDF</a>
+</article>

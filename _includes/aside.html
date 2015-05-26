@@ -1,10 +1,14 @@
 <aside class="site-sidebar">
 
-{% for capitulo in site.data.sidebar %}
-    <h4><a href="{{ site.url }}{{ capitulo.url }}">{{ capitulo.title }}</a></h4>
-    {% if capitulo.subcaps %}
-        {% include subcaps.html items=capitulo.subcaps parent=capitulo.url %}
-    {% endif %}
-{% endfor %}
+    {% include mobile_menu.html %}
+
+    <div class="menu-desktop">
+    {% for capitulo in site.data.sidebar %}
+        <h4><a href="{{ site.url }}/{{ capitulo.url }}">{{ capitulo.title }}</a></h4>
+        {% if capitulo.subcaps %}
+            {% include subcaps.html items=capitulo.subcaps parent=capitulo.url %}
+        {% endif %}
+    {% endfor %}
+    </div>
 
 </aside>

@@ -4,24 +4,21 @@
 <ul>
 {% for item in items %}
   {% if item.url == page.url %}
-    {% assign c = "current" %}
+    {% assign c = " selected" %}
   {% else %}
     {% assign c = "" %}
   {% endif %}
 
-  <li class="{{ c }}"><a href="{{ site.url }}/{{ parent }}/{{ item.url }}">{{ item.title }}</a></li>
+  <option value="{{ site.url }}/{{ parent }}/{{ item.url }}" class="menu-level2" {{ c }}>{{ item.title }}</option>
   {% if item.subsubcaps %}
-    <ul>
     {% for subitem in item.subsubcaps %}
       {% if subitem.url == page.url %}
-        {% assign sc = "current" %}
+        {% assign sc = " selected" %}
       {% else %}
         {% assign sc = "" %}
       {% endif %}
-      <li class="{{ sc }}"><a href="{{ site.url }}/{{ parent }}/{{ item.url }}/{{ subitem.url }}">{{ subitem.title }}</a></li>
+      <option value="{{ site.url }}/{{ parent }}/{{ item.url }}/{{ subitem.url }}" class="menu-level3" {{ sc }}>{{ subitem.title }}</a></li>
     {% endfor %}
-    </ul>
   {% endif %}
 
 {% endfor %}
-</ul>
