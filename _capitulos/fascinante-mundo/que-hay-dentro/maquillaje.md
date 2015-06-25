@@ -24,30 +24,6 @@ Un ID también es un atributo en un elemento HTML. La diferencia esencial con la
 Adentro de cada selector, entre las llaves, se colocan las declaraciones de estilo, indicando las propiedades y el valor que se les desea atribuir. Cada una de ellas se define como propiedad, dos puntos, valor, y debe finalizar con un punto y coma, salvo la última del bloque, para la cual no es necesario. Muchas propiedades poseen una sintáxis propia para definir estos valores, y debe ser respetada para su correcta interpretación por el navegador. Un ejemplo concreto de cómo realizar una declaración CSS dentro de un bloque de selección es, `width: 200px;`. En la [Figura 2: Declaración de estilo en CSS](../../anexo/) se presenta un ejemplo ampliado de cómo puede formatearse un párrafo para que cumpla con las normas de presentación de este PG.
 
 
+Como se puede apreciar en la declaración de estilos, CSS acepta diferentes tipos de unidades de medidas, tanto absolutas como relativas. En la [Tabla 1: Unidades de medidas absolutas en CSS](../../anexo/), y en la Tabla 2: Unidades de medidas relativas en CSS se explica cada tipo de medida. A su vez, los colores se pueden declarar de tres maneras: mediante una palabra clave, ya algunos valores de colores están relacionados con sus nombres en inglés, llamados colores web; usando el sistema RGB mediante un valor hexadecimal (`#123456`), o mediante el uso de las notaciones funcionales como `rgb()` o `rgba()`; o utilizando el sistema HSL a través del uso de las notaciones funcionales `hsl()` o `hsla()`. (Mozilla, 2014).
 
-Como se puede apreciar en la declaración de
-estilos, CSS acepta diferentes tipos de unidades de medidas, tanto absolutas
-como relativas. En la Tabla 1: Unidades de medidas absolutas en CSS, y en la
-Tabla 2: Unidades de medidas relativas en CSS se explica cada tipo de medida. A
-su vez, los colores se pueden declarar de tres maneras: mediante una palabra
-clave, ya algunos valores de colores están relacionados con sus nombres en
-inglés, llamados colores web; usando el sistema RGB mediante un valor
-hexadecimal (#123456), o mediante el uso de las notaciones funcionales como
-rgb() o rgba(); o utilizando el sistema HSL a través del uso de las notaciones
-funcionales hsl() o hsla(). (Mozilla, 2014).
-
-
-
-Los selectores pueden ser combinados para generar
-capas más complejas de selección y estilo. Estas declaraciones de propiedades
-pueden, a su vez, ser superpuestas y autoeliminadas. En caso de repetición de
-una propiedad para un mismo elemento específico, el navegador tomará como
-válida la última declarada.
-
-
-
-EndFragment
-
-
-
-���p��4
+Los selectores pueden ser combinados para generar capas más complejas de selección y estilo. Estas declaraciones de propiedades pueden, a su vez, ser superpuestas y autoeliminadas. En caso de repetición de una propiedad para un mismo elemento específico, el navegador tomará como válida la última declarada.
