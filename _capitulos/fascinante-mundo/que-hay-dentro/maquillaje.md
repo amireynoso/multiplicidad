@@ -1,0 +1,53 @@
+---
+layout: capitulo
+title: "1.1.2.	El maquillaje: CSS"
+comments: true
+---
+
+CSS es la abreviatura de _Cascading StyleSheets_, cuya traducción es hojas de estilo en cascada. Éste es un lenguaje que permite declarar instrucciones de estilo visual para el navegador, estando relacionado a un documento HTML, o a varios. La última versión estandarizada por la W3C es la 2.1, aunque es posible utilizar módulos de la versión 3.0 (CSS3) si se dispone de un navegador moderno que la soporte.
+
+Estas declaraciones en lenguaje CSS pueden estar definidas en un documento separado de la página web, con extensión .css, o pueden estar dentro del HTML envueltas en la etiqueta <style>. Si se utiliza un archivo externo, es necesario vincularlo a la página HTML en cuestión mediante una llamada con la etiqueta `<link>`, la cual se debe colocar en el `<head>` del documento HTML. Es recomendable utilizar un archivo CSS aparte, por varios motivos. De esta manera se separa la estructura con su texto y contenido de las declaraciones visuales de estilo: “Mantener estrictamente separados la estructura (marcado), presentación (estilos), y comportamiento (scripts), y tratar de mantener la interacción entre los tres a un mínimo absoluto” (Google, 2013). Por otro lado permite un nivel de escalabilidad mayor a un proyecto web, ya que un mismo archivo de hoja de estilos puede ser utilizado por la cantidad de páginas web que se desee, facilitándo así la edición del mismo; si las declaraciones fuesen repetidas dentro de cada página web, mantenerlas actualizadas en cada uno de los documentos sería una tarea trabajosa.
+
+Las declaraciones CSS son instrucciones que apuntan a dar estilo y/o modificar la manera en que el navegador _renderea_ el contenido HTML nativamente. Si bien es posible generar cambios en la interfaz visual desde el HTML mismo, mediante diferentes atributos en los elementos, esta práctica está completamente desacreditada por Google en su _Guía de Estilos para HTML/CSS_ (Google, 2013).
+
+Una instrucción en CSS comienza indicando el destino de ese comando. El destino al cual se le aplicarán los cambios, llamados selectores, pueden ser, desde lo más general a lo más particular: elementos, pseudo-elementos, clases, IDs.
+
+Como ya se ha dicho, un elemento es lo que se forma al encerrar un contenido con una etiqueta, aunque también se ha mencionado que pueden existir etiquetas que se cierran en sí mismas. Tomando como ejemplo la etiqueta <p> de párrafo, el elemento se construiría de esta manera: `<p>Esto es un párrafo.</p>`. Si con CSS se quisiera apuntar al elemento `<p>`, únicamente se debe escribir el nombre de ese
+elemento y apertura de llaves: `p { }`. Esta instrucción es válida para todas las apariciones de elementos `<p>` en todas las páginas web que compartan la misma hoja de estilo. Es recomendable, por este motivo, apuntar directamente a elementos para hacer cambios genéricos y no particulares.
+
+A su vez, se pueden encontrar un tipo de selectores más específicos que sirven para apuntar a elementos que, dentro del marcado, son en realidad inexistentes. Se los denomina pseudo-elementos. Sirven para seleccionar elementos virtuales, como _before_ y _after_, que crean contenido antes y/o después de una etiqueta, como también para hacer selecciones delimitadas dentro de un elemento, con _first-line_ o _first-child_. Su uso más común es, probablemente, la selección de diferentes estados, como _hover_ que apunta a cuando se coloca el _mouse_ por encima de un elemento en pantalla. En un documento CSS se hace referencia a los pseudo-elementos con el símbolo de dos puntos, antecedido por el selector al que se intenta aplicar. Por ejemplo, para darle estilos a un hipervínculo únicamente cuando se le pasa el _mouse_ encima, se utiliza `a:hover { }`, siendo _a_ el selector de todos los elementos de enlace, y _hover_, el pseudo-elemento de estado.
+
+Así también otro selector es una clase, o _class_, la cual es un atributo que puede dársele a un elemento HTML con un valor arbitrario. Esta clase puede ser utilizada en cualquier tipo de etiqueta que permita el atributo, a la cantidad de elementos que se considere necesario. El atributo _class_ también soporta múltiples valores, es decir, un mismo elemento puede tener una o más clases diferentes. Dentro del HTML se define un elemento con una clase de la siguiente manera: `<p class="copete">Esto es un párrafo con clase copete</p>`. Para apuntar desde CSS a cualquier clase se utiliza un punto antes del nombre de la misma: `.copete { }`. Éstas sirven para elementos que comparten estilos, por más que sean elementos de distintos tipos.
+
+Un ID también es un atributo en un elemento HTML. La diferencia esencial con las clases es que un ID puede ser utilizado una sola vez por página web, y tampoco es posible que este atributo contenga más de un valor. Es, de todos los selectores, el más específico, y debería ser utilizado en ocasiones que realmente lo requieran. Un ejemplo de ID dentro del HTML es: `<p id="intro”>Este es un párrafo con ID intro</p>`. En el CSS se declara antecediendo el símbolo numeral, de la siguiente manera: `#intro { }`.
+
+Adentro de cada selector, entre las llaves, se colocan las declaraciones de estilo, indicando las propiedades y el valor que se les desea atribuir. Cada una de ellas se define como propiedad, dos puntos, valor, y debe finalizar con un punto y coma, salvo la última del bloque, para la cual no es necesario. Muchas propiedades poseen una sintáxis propia para definir estos valores, y debe ser respetada para su correcta interpretación por el navegador. Un ejemplo concreto de cómo realizar una declaración CSS dentro de un bloque de selección es, `width: 200px;`. En la [Figura 2: Declaración de estilo en CSS](../../anexo/) se presenta un ejemplo ampliado de cómo puede formatearse un párrafo para que cumpla con las normas de presentación de este PG.
+
+
+
+Como se puede apreciar en la declaración de
+estilos, CSS acepta diferentes tipos de unidades de medidas, tanto absolutas
+como relativas. En la Tabla 1: Unidades de medidas absolutas en CSS, y en la
+Tabla 2: Unidades de medidas relativas en CSS se explica cada tipo de medida. A
+su vez, los colores se pueden declarar de tres maneras: mediante una palabra
+clave, ya algunos valores de colores están relacionados con sus nombres en
+inglés, llamados colores web; usando el sistema RGB mediante un valor
+hexadecimal (#123456), o mediante el uso de las notaciones funcionales como
+rgb() o rgba(); o utilizando el sistema HSL a través del uso de las notaciones
+funcionales hsl() o hsla(). (Mozilla, 2014).
+
+
+
+Los selectores pueden ser combinados para generar
+capas más complejas de selección y estilo. Estas declaraciones de propiedades
+pueden, a su vez, ser superpuestas y autoeliminadas. En caso de repetición de
+una propiedad para un mismo elemento específico, el navegador tomará como
+válida la última declarada.
+
+
+
+EndFragment
+
+
+
+���p��4
