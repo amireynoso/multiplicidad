@@ -4,7 +4,6 @@ title: "1.3.1.	Facilitando caminos mediante la usabilidad"
 comments: true
 ---
 
-
 Usabilidad es un concepto que se desprende inherentemente de la globalidad de la experiencia de usuario. Éste refiere entonces a “la medida en que un producto puede ser usado por determinados usuarios para lograr los objetivos especificados con efectividad, eficiencia y satisfacción en un contexto de uso específico” (_International Organization for Standardization_, 1998).
 
 Para poder llevar a cabo un correcto diseño centrado en el usuario y que responda a las buenas prácticas de la usabilidad, es necesario realmente conocer al usuario. No es el mismo usuario el que, generalmente hablando, visite un sitio de vestidos de novia desde una _laptop_ a quien navegue el sitio oficial de la NBA desde un teléfono celular. Cambia el tipo de usuario, sus costumbres, su locación, su edad, su bagaje cultural, entre muchos otros factores, que también incluyen al contexto del usuario, ya sea el dispositivo utilizado y/o su navegador. Es necesario conducir una investigación previa mediante herramientas analíticas que permitan descubrir el _target_ del producto en profundidad.
