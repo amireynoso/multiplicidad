@@ -2,6 +2,7 @@
 layout: capitulo
 title: "1.3.	Navegantes satisfechos: la experiencia de usuario"
 comments: true
+permalink: fascinante-mundo/navegantes-satisfechos/
 ---
 
 El concepto de experiencia de usuario, comúnmente abreviado UX por _user experience_, no es únicamente aplicado en el campo del diseño web, o al campo del diseño en términos globales. La experiencia de usuario se destina a cualquier área en la que se requiera de la interacción de un usuario con un producto determinado. La experiencia del usuario es la sensación que se genera en un usuario determinado
