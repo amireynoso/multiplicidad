@@ -2,7 +2,7 @@
 layout: capitulo
 title: "2.5.	Cuando el entorno móvil marca fronteras"
 comments: true
-permalink: en-todos-lados/entorno-movil
+permalink: en-todos-lados/entorno-movil/
 ---
 
 Este paradigma de visualización de una página web se caracteriza por restringir a los diseñadores a un apretado marco de opciones al momento de plasmar su creatividad en una interfaz funcional y efectiva. Estas limitaciones suelen ser razones suficientes para que muchos de ellos decidan no tomarse la molestia de plantear la necesidad de un abordaje al medio _mobile_. La complejidad en la correcta aplicación de portabilidad en los desarrollos para la web es otra razón que hace huir a algunos diseñadores. “Portabilidad refiere a la capacidad de una aplicación móvil para ser utilizada en varios dispositivos con diferente hardware, software y plataformas” (Firtman, 2013, p. 51).
