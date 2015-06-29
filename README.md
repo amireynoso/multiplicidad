@@ -14,6 +14,7 @@ Built with [Jekyll](https://github.com/jekyll/jekyll/).
 ## To do
 - [ ] Upload all chapters and sub-chapters
 - [ ] Generate bibliographic references
+- [ ] Style chapter titles
 - [ ] Style cites and quotes
 - [ ] Use footnote references (instead of linking Bibliographic References Appendix)
 - [ ] Append figures and tables into text flow (instead of linking Figures & Tables Appendix)

@@ -28,7 +28,6 @@ author:
 version:             1.0.0
 github:
   repo:              "https://github.com/amireynoso/multiplicidad"
-highlighter:         rouge
 
 # Collection
 collections:
