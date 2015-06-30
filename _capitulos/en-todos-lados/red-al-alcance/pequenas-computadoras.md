@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.1.2. 	Pequeñas computadoras: tablets"
+layout: subcapitulo
+order: "2.1.2."
+title: "Pequeñas computadoras: tablets"
 comments: true
 ---
 

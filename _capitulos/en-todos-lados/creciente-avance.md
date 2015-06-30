@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.2.	El creciente avance de las plataformas móviles"
+layout: subcapitulo
+order: "2.2."
+title: "El creciente avance de las plataformas móviles"
 comments: true
 ---
 

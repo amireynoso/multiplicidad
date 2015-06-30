@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.5.2.	¿Vertical o apaisado?: orientaciones de pantalla"
+layout: subcapitulo
+order: "2.5.2."
+title: "¿Vertical o apaisado?: orientaciones de pantalla"
 comments: true
 ---
 

@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.4.1.	Aplicaciones nativas"
+layout: subcapitulo
+order: "2.4.1."
+title: "Aplicaciones nativas"
 comments: true
 ---
 

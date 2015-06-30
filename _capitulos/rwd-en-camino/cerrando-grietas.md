@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "4.6.	Cerrando grietas con polyfills"
+layout: subcapitulo
+order: "4.6."
+title: "Cerrando grietas con polyfills"
 comments: true
 ---
 

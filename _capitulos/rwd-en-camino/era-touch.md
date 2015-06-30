@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "4.7.	La era touch: gestos táctiles"
+layout: subcapitulo
+order: "4.7."
+title: "La era touch: gestos táctiles"
 comments: true
 ---
 

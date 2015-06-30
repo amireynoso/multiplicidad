@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "3.5.	¿Mejora progresiva o degradación gradual?"
+layout: subcapitulo
+order: "3.5."
+title: "¿Mejora progresiva o degradación gradual?"
 comments: true
 ---
 

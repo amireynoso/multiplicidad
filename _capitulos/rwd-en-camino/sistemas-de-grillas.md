@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "4.5.	Cada cosa en su lugar: sistemas de grillas"
+layout: subcapitulo
+order: "4.5."
+title: "Cada cosa en su lugar: sistemas de grillas"
 comments: true
 ---
 

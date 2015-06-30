@@ -13,9 +13,8 @@ Built with [Jekyll](https://github.com/jekyll/jekyll/).
 
 ## To do
 - [x] Upload all chapters and sub-chapters
-- [ ] Generate bibliographic references
-- [ ] Style chapter titles
+- [x] Style chapter titles
 - [ ] Style cites and quotes
-- [ ] Use footnote references (instead of linking Bibliographic References Appendix) (based on [this technique](http://www.sitepoint.com/accessible-footnotes-css))
+- [ ] Use footnote references (instead of linking Bibliographic References Appendix) [based on [this technique](http://www.sitepoint.com/accessible-footnotes-css)]
 - [ ] Append figures and tables into text flow (instead of linking Figures & Tables Appendix)
 - [ ] Technical corrections

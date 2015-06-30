@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "5.1.	¿Quién lo usa?: análisis de aplicación"
+layout: subcapitulo
+order: "5.1."
+title: "¿Quién lo usa?: análisis de aplicación"
 comments: true
 permalink: teoria-a-la-practica/quien-lo-usa/
 ---

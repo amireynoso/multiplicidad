@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.5.3.	Cada navegador con sus reglas"
+layout: subcapitulo
+order: "2.5.3."
+title: "Cada navegador con sus reglas"
 comments: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: capitulo
-title: "Capítulo 3: La Web líquida"
+chapter: "Capítulo 3"
+title: "La Web líquida"
 comments: true
 permalink: web-liquida/
 ---

@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.3. Un bicho raro: el usuario móvil"
+layout: subcapitulo
+order: "2.3."
+title: "Un bicho raro: el usuario móvil"
 comments: true
 ---
 Antes de intentar definir al usuario móvil, es necesario entender a qué se denomina usuario en términos generales. Se trata de un individuo que hace uso de un objeto, ya sea un producto, una herramienta, o en el caso que compete a este Proyecto, un sitio web, para obtener de él un resultado o servicio luego de una interacción con el mismo.

@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.5.	Cuando el entorno móvil marca fronteras"
+layout: subcapitulo
+order: "2.5."
+title: "Cuando el entorno móvil marca fronteras"
 comments: true
 permalink: en-todos-lados/entorno-movil/
 ---

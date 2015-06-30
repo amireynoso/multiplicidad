@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "4.8.	Marche un combo para llevar: frameworks"
+layout: subcapitulo
+order: "4.8."
+title: "Marche un combo para llevar: frameworks"
 comments: true
 ---
 

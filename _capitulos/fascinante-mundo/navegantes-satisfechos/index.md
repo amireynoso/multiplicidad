@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "1.3.	Navegantes satisfechos: la experiencia de usuario"
+layout: subcapitulo
+order: "1.3."
+title: "Navegantes satisfechos: la experiencia de usuario"
 comments: true
 permalink: fascinante-mundo/navegantes-satisfechos/
 ---

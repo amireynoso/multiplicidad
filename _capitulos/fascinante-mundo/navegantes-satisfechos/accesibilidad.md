@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "1.3.2.	Accesibilidad para todos y todas"
+layout: subcapitulo
+order: "1.3.2."
+title: "Accesibilidad para todos y todas"
 comments: true
 ---
 

@@ -1,6 +1,7 @@
 ---
 layout: capitulo
-title: "Capítulo 4: ¡Manos a la obra! Responsive web design en camino"
+chapter: "Capítulo 4"
+title: "¡Manos a la obra! Responsive web design en camino"
 comments: true
 permalink: rwd-en-camino/
 ---
@@ -11,4 +12,4 @@ Es en este punto donde surgen dudas y trabas sobre el camino a tomar para cumpli
 
 En la teoría, esta técnica es convincente. No obstante, al momento de aplicar esta filosofía a un proyecto concreto, muchos diseñadores novatos o sin experiencia en este tipo de abordaje suelen verse en una encrucijada, ya que no cuentan con las herramientas y conocimientos precisos para hacerle frente. Afortunadamente, numerosos estudiosos y entusiastas de la materia han pensado y publicado soluciones rápidas y efectivas que hacen el trabajo de diseñadores, maquetadores y desarrolladores al menos un poco más sencillo.
 
-En este capítulo se efectúa un recorrido de diferentes nociones que el lector debe tener en cuenta al momento de emprender un proyecto que haga uso de diseño web responsivo. Se delinean técnicas fundamentales en esta práctica, como las _media queries_ y unidades relativas, como también se sugieren sistemas completos ya desarrollados sobre los cuales sentar bases a la hora de diseñar. 
+En este capítulo se efectúa un recorrido de diferentes nociones que el lector debe tener en cuenta al momento de emprender un proyecto que haga uso de diseño web responsivo. Se delinean técnicas fundamentales en esta práctica, como las _media queries_ y unidades relativas, como también se sugieren sistemas completos ya desarrollados sobre los cuales sentar bases a la hora de diseñar.

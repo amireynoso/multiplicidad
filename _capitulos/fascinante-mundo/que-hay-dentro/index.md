@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "1.1. ¿Qué hay dentro de un sitio web?"
+layout: subcapitulo
+order: "1.1."
+title: "¿Qué hay dentro de un sitio web?"
 comments: true
 permalink: fascinante-mundo/que-hay-dentro/
 ---

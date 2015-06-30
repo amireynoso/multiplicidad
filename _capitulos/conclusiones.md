@@ -1,5 +1,5 @@
 ---
-layout: capitulo
+layout: appendix
 title: "Conclusiones"
 comments: true
 ---

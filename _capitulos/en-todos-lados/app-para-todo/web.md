@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.4.2.	Aplicaciones web"
+layout: subcapitulo
+order: "2.4.2."
+title: "Aplicaciones web"
 comments: true
 ---
 

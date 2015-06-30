@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.1.	La red al alcance de la mano: dispositivos móviles"
+layout: subcapitulo
+order: "2.1."
+title: "La red al alcance de la mano: dispositivos móviles"
 comments: true
 permalink: en-todos-lados/red-al-alcance/
 ---

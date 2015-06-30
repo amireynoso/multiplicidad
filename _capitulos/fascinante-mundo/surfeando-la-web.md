@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "1.2.	Surfeando la Web: los navegadores"
+layout: subcapitulo
+order: "1.2."
+title: "Surfeando la Web: los navegadores"
 comments: true
 ---
 

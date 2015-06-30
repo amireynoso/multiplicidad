@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "3.1.	Adaptar o morir"
+layout: subcapitulo
+order: "3.1."
+title: "Adaptar o morir"
 comments: true
 ---
 

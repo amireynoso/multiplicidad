@@ -1,6 +1,7 @@
 ---
 layout: capitulo
-title: "Capítulo 1: El fascinante mundo del diseño web"
+chapter: "Capítulo 1"
+title: "El fascinante mundo del diseño web"
 comments: true
 permalink: fascinante-mundo/
 ---

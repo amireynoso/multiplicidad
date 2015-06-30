@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.4.	Hay una app para todo"
+layout: subcapitulo
+order: "2.4."
+title: "Hay una app para todo"
 comments: true
 permalink: en-todos-lados/app-para-todo/
 ---

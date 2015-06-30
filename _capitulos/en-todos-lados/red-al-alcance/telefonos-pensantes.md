@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "2.1.1.	Teléfonos pensantes: smartphones"
+layout: subcapitulo
+order: "2.1.1."
+title: "Teléfonos pensantes: smartphones"
 comments: true
 ---
 

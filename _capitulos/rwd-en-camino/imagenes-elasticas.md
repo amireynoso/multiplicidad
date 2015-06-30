@@ -1,6 +1,7 @@
 ---
-layout: capitulo
-title: "4.4.	Imágenes elásticas"
+layout: subcapitulo
+order: "4.4."
+title: "Imágenes elásticas"
 comments: true
 ---
 

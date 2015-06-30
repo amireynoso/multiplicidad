@@ -1,6 +1,7 @@
 ---
 layout: capitulo
-title: "Capítulo 2: La Web en todos lados"
+chapter: "Capítulo 2"
+title: "La Web en todos lados"
 comments: true
 permalink: en-todos-lados/
 ---
