@@ -11,7 +11,7 @@
           {% else %}
             {% assign previous = forloop.index0 | minus: 1 %}
             {% assign previous_page = chapters[previous] | prepend:"/" | append:"/" %}
-            <a href="{{ site.url }}{{ previous_page }}" class="prev">&laquo; Anterior</a>
+            <a href="{{ site.baseurl }}{{ previous_page }}" class="prev">&laquo; Anterior</a>
           {% endif %}
       </div>
       <div class="right align-left">
@@ -20,7 +20,7 @@
           {% else %}
             {% assign next = forloop.index0 | plus: 1 %}
             {% assign next_page = chapters[next] | prepend:"/" | append:"/" %}
-            <a href="{{ site.url }}{{ next_page }}" class="next">Siguiente &raquo;</a>
+            <a href="{{ site.baseurl }}{{ next_page }}" class="next">Siguiente &raquo;</a>
           {% endif %}
       </div>
     </div>

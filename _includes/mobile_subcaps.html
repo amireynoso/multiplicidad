@@ -9,7 +9,7 @@
     {% assign c = "" %}
   {% endif %}
 
-  <option value="{{ site.url }}/{{ parent }}/{{ item.url }}" class="menu-level2" {{ c }}>{{ item.title }}</option>
+  <option value="{{ site.baseurl }}/{{ parent }}/{{ item.url }}" class="menu-level2" {{ c }}>{{ item.title }}</option>
   {% if item.subsubcaps %}
     {% for subitem in item.subsubcaps %}
       {% if subitem.url == page.url %}
@@ -17,7 +17,7 @@
       {% else %}
         {% assign sc = "" %}
       {% endif %}
-      <option value="{{ site.url }}/{{ parent }}/{{ item.url }}/{{ subitem.url }}" class="menu-level3" {{ sc }}>{{ subitem.title }}</a></li>
+      <option value="{{ site.baseurl }}/{{ parent }}/{{ item.url }}/{{ subitem.url }}" class="menu-level3" {{ sc }}>{{ subitem.title }}</a></li>
     {% endfor %}
   {% endif %}
 
