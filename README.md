@@ -16,6 +16,6 @@ Built with [Jekyll](https://github.com/jekyll/jekyll/).
 - [ ] Generate bibliographic references
 - [ ] Style chapter titles
 - [ ] Style cites and quotes
-- [ ] Use footnote references (instead of linking Bibliographic References Appendix)
+- [ ] Use footnote references (instead of linking Bibliographic References Appendix) (based on [this technique](http://www.sitepoint.com/accessible-footnotes-css))
 - [ ] Append figures and tables into text flow (instead of linking Figures & Tables Appendix)
 - [ ] Technical corrections
