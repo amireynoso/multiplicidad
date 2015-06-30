@@ -1,6 +1,6 @@
 ---
 layout: capitulo
-title: Introducción
+title: "Introducción"
 comments: true
 ---
 

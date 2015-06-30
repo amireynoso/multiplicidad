@@ -12,7 +12,7 @@ Built with [Jekyll](https://github.com/jekyll/jekyll/).
 ***
 
 ## To do
-- [ ] Upload all chapters and sub-chapters
+- [x] Upload all chapters and sub-chapters
 - [ ] Generate bibliographic references
 - [ ] Style chapter titles
 - [ ] Style cites and quotes
