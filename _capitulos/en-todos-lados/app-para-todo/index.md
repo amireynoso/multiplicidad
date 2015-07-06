@@ -10,4 +10,6 @@ Actualmente este término es utilizado constantemente para referirse a una de la
 
 Una aplicación es un programa, un _software_, que puede ser muy simple, en su desarrollo y/o diseño, como compleja y extensa. Generalmente se piensa en aplicaciones como algo exclusivo de las plataformas móviles, pero éstas se encuentran en todo tipo de dispositivos, mismo en las computadoras, en las cuales son llamadas simplemente programas. Éstas son un sistema en sí mismas, y absolutamente todas presentan una interfaz gráfica, que es con la cual el usuario interactúa.
 
-Para lo que compete a este Ensayo se analizan únicamente las aplicaciones móviles. Dentro de esta clasificación según Raluca Budiu (2013), investigadora del Nielsen Norman Group, se reconocen tres clases de _apps_: nativas, web e híbridas.
+Para lo que compete a este Ensayo se analizan únicamente las aplicaciones móviles. Dentro de esta clasificación según Raluca Budiu (2013) [^fn-budiu_2013], investigadora del Nielsen Norman Group, se reconocen tres clases de _apps_: nativas, web e híbridas.
+
+[^fn-budiu_2013]: Budiu, R. (14 de Septiembre de 2013). _Mobile: Native Apps, Web Apps, and Hybrid Apps_. Disponible en: [http://www.nngroup.com/articles/mobile-native-apps/](http://www.nngroup.com/articles/mobile-native-apps/)
